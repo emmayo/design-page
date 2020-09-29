@@ -1,0 +1,133 @@
+body {
+  background-color: black !important;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  /* color: white !important; */
+}
+
+.logo-container {
+  min-height: 10rem;
+  display: grid;
+  justify-content: center;
+}
+
+.logo-container span {
+  text-align: center;
+}
+
+.logo-container img {
+  justify-self: center;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#invite {
+  width: 150px;
+  height: 30px;
+  background-color: white;
+  color: black;
+  border-radius: 35px;
+}
+
+.menu {
+  /* display: grid; */
+  display: flex;
+  justify-content: space-between;
+  /* grid-template-columns: 2fr 1fr; */
+  align-items: center;
+  height: 120px;
+  padding: 0px 10% 0px 10%;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.reg {
+  color: black;
+  font-size: 20px;
+  background-color: #ffcc00;
+  padding: 0px 46px;
+  height: 70px;
+  width: 227px;
+  font-weight: bold;
+  border-radius: 50px;
+}
+
+.ads-bg {
+  width: 100%;
+  height: 220px;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.event {
+  color: #000;
+}
+
+.event-container {
+  display: flex;
+  align-items: center;
+}
+
+.bg-black {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  border-radius: 100%;
+  margin-left: 20px;
+}
+
+.info-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr) 200px;
+  align-items: center;
+}
+.btn-con {
+  display: grid;
+}
+.b {
+  justify-self: center;
+}
+
+.date {
+  margin-left: 160px;
+}
+
+.container {
+  font-weight: bold;
+}
+
+.easter-container {
+  font-weight: bold;
+  font-size: 30px;
+  background-color: white;
+  height: 130px;
+  margin-bottom: 50px;
+  /* margin-left: 190px;
+  margin-right: 190px; */
+}
+
+.topic {
+  font-size: 60px;
+  text-align: center;
+}
+.second {
+  text-align: center;
+}
+
+.image-content {
+  display: grid;
+  grid-template-columns: repeat(1, 2fr);
+  margin-bottom: 80px;
+  background-color: white;
+  background-image: url(picture/rev.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+  height: 480px;
+}
